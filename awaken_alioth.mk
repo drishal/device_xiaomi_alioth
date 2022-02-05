@@ -14,7 +14,7 @@ $(call inherit-product, vendor/awaken/config/common_full_phone.mk)
 # Inherit from alioth device
 $(call inherit-product, device/xiaomi/alioth/device.mk)
 
-TARGET_BOOT_ANIMATION_RES := 108o
+TARGET_BOOT_ANIMATION_RES := 1080
 PRODUCT_NAME := awaken_alioth
 PRODUCT_DEVICE := alioth
 PRODUCT_MANUFACTURER := Xiaomi
