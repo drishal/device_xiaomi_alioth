@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/awaken_alioth.mk
+    $(LOCAL_DIR)/lighthouse_alioth.mk
 
 COMMON_LUNCH_CHOICES := \
-    awaken_alioth-user \
-    awaken_alioth-userdebug \
-    awaken_alioth-eng
+    lighthouse_alioth-user \
+    lighthouse_alioth-userdebug \
+    lighthouse_alioth-eng
