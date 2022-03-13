@@ -518,4 +518,7 @@
 
     <!-- Indicates whether StatusBar burn-in protection is On -->
     <bool name="config_statusBarBurnInProtection">true</bool>
+
+    <!-- Indicates whether device has a power button fingerprint sensor. -->
+    <bool name="config_is_powerbutton_fps" translatable="false">true</bool>
 </resources>
