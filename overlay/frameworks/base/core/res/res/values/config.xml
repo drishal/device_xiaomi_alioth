@@ -516,4 +516,6 @@
          activated. -->
     <integer name="config_nightDisplayColorTemperatureDefault">3339</integer>
 
+    <!-- Indicates whether StatusBar burn-in protection is On -->
+    <bool name="config_statusBarBurnInProtection">true</bool>
 </resources>
