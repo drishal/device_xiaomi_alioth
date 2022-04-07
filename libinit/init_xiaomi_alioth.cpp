@@ -30,7 +30,7 @@ static const variant_info_t alioth_global_info = {
     .device = "alioth",
     .marketname = "POCO F3",
     .model = "M2012K11AG",
-    .build_fingerprint = "POCO/alioth_global/alioth:11/RKQ1.200826.002/V12.5.6.0.RKHMIXM:user/release-keys",
+    .build_fingerprint = "POCO/alioth_global/alioth:12/SKQ1.211006.001/V13.0.3.0.SKHEUXM:user/release-keys",
 
     .nfc = true,
 };
