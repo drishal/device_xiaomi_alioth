@@ -9,27 +9,24 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common PixelPlus-UI stuff.
-$(call inherit-product, vendor/dot/config/common.mk)
-WITH_GAPPS := true
+$(call inherit-product, vendor/lighthouse/config/common.mk)
 TARGET_INCLUDE_WIFI_EXT := true
 TARGET_BOOT_ANIMATION_RES := 1440
 
 # Charging Animation
 TARGET_INCLUDE_PIXEL_CHARGER := true
 
-# dotOS Official
-DOT_OFFICIAL := false
+# lighthouseOS Official
+LIGHTHOUSE_BUILD_TYPE := OFFICIAL
 IS_PHONE := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 TARGET_INCLUDE_STOCK_ARCORE := false
-TARGET_INCLUDE_LIVE_WALLPAPERS := true
-PPUI_MAINTAINER := johnmart19
 
 # Inherit from alioth device
 $(call inherit-product, device/xiaomi/alioth/device.mk)
 
-PRODUCT_NAME := dot_alioth
+PRODUCT_NAME := lighthouse_alioth
 PRODUCT_DEVICE := alioth
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := POCO
